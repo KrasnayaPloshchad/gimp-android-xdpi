@@ -121,7 +121,7 @@ gimpfu.register("python_fu_android_xdpi",
                     (gimpfu.PF_BOOL, "x_xxxhdpi", "  Export xxxhdpi",False),
                     #(gimpfu.PF_BOOL, "x_tvdpi",   "  Export tvdpi",  False),
                     (gimpfu.PF_BOOL, "allow_upscale", "  Create upscaled images", False),
-                    (gimpfu.PF_RADIO, "image-extension", "Image Format", DEFAULT_OUTPUT_EXT, (("gif", "gif"), ("png", "png"), ("jpg", "jpg"))),
+                    (gimpfu.PF_RADIO, "image-extension", "Image Format", DEFAULT_OUTPUT_EXT, (("gif", "gif"), ("png", "png"), ("jpg", "jpg"), ("webp", "webp"))),
                       ], 
                 [], 
                 write_xdpi) #, menu, domain, on_query, on_run)
